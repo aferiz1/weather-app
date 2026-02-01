@@ -1,0 +1,52 @@
+.app {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  width: 360px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.search button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background: #4338ca;
+}
+
+.card {
+  margin-top: 16px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9fafb;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 15px;
+}
