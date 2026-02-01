@@ -22,6 +22,7 @@ Instrukcije za pokretanje aplikacije:
 Nakon što ste klonirali repozitorij, otvorite terminal u folderu WeatherAPI.
 
 Instalirajte NuGet pakete: -> dotnet restore
+
 Promijenite konekciju u appsettings.json:
 "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Weather;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=False"
